@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - Aplikasi Penjualan Barang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .profile-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .profile-container h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .profile-info .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 15px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .profile-info .info-item span {
+            font-weight: bold;
+            color: #555;
+        }
+        .edit-profile-btn {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            padding: 10px;
+            background: #007bff;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .edit-profile-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Profil Pengguna</h1>
+        <div class="profile-info">
+            <div class="info-item">
+                <span>Nama</span>
+                <p>Rafly Prastya S</p>
+            </div>
+            <div class="info-item">
+                <span>Email</span>
+                <p>raflyprastya@gmail.com</p>
+            </div>
+            <div class="info-item">
+                <span>Telepon</span>
+                <p>+62 813 9881 0780</p>
+            </div>
+            <div class="info-item">
+                <span>Alamat</span>
+                <p>Jln Arta, Tangerang Selatan</p>
+            </div>
+        </div>
+        <a href="/edit-profile" class="edit-profile-btn">Edit Profil</a>
+    </div>
+</body>
+</html>
